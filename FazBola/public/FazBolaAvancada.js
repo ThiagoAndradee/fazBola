@@ -102,7 +102,6 @@ outerColorController.onChange(value => {
   pointLight2.position.set(-5, -5, 5);
   scene.add(pointLight2);
 
-
   // Criar GUI com dat.GUI (opcional)
   // ... Você pode adicionar controles para ajustar propriedades da cena ...
 
@@ -120,11 +119,7 @@ outerColorController.onChange(value => {
     renderer.render(scene, camera);
   };
 
-  
-
   animate();
-
-  
 }
 
 init();
